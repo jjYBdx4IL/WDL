@@ -5,6 +5,8 @@
 #ifdef _WIN32
 #include <windows.h>
 #include <commctrl.h>
+#pragma comment(lib, "Shlwapi.lib")
+#pragma comment(lib, "comctl32.lib")
 #else
 #include "../swell.h"
 #endif
